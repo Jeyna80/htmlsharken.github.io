@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Input Form</title>
+</head>
+<body>
+    <h1>AnimalCharity Concert</h1>
+
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="firstname"><br><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="lastname"><br><br>
+
+    </form>
+    <form action="/submit" method="GET">
+        <input type="text" name="username">
+        <input type="submit" value="Submit">
+    </form>
+    <form action="/submit" method="POST">
+        <input type="text" name="username">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <input type="checkbox" id="answer1" name="answer" value="yes">
+        <label for="answer1">Yes</label>
+
+        <input type="checkbox" id="answer2" name="answer" value="maybe">
+        <label for="answer2">Maybe</label>
+
+        <input type="checkbox" id="answer3" name="answer" value="no">
+        <label for="answer3">No</label>
+
+    </form>
+
+    <br>
+    <select name="concert" id="concert">
+        <option value="">Select a concert</option>
+        <option value="metallica">Metallica</option>
+        <option value="manowar">Manowar</option>
+        <option value="iron maiden">Iron Maiden</option>
+        <option value="accept">Accept</option>
+    </select>
+    <select name="city" id="city">
+        <option value="">Select a city</option>
+        <option value="blomstermala">Blomstermala</option>
+        <option value="alem">Alem</option>
+        <option value="monsteras">Monsteras</option>
+        <option value="timmernabben">Timmernabben</option>
+    </select>
+    <select name="Amount" id="Amount">
+        <option value="">Select your Amount</option>
+        <option value="100 SEK">100 SEK</option>
+        <option value="200 SEK">200 SEK</option>
+        <option value="500 SEK">500 SEK</option>
+        <option value="Optional Amount">Optional Amount</option>
+    </select>
+    </br>
+
+    <br>
+    <div>
+        <input type="checkbox" id="policyAgree" name="policyAgree" required>
+        <label for="policyAgree">I agree to the privacy policy</label>
+        <input type="submit" value="Submit">
+    </div>
+    </br>
+</body>
+</html>

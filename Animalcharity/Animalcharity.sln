@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animalcharity", "Animalcharity\Animalcharity.csproj", "{E43B6B69-7658-4D93-AA5A-E1F7DE1B88DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{5116D848-C050-463A-96CB-86C57B111072}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E43B6B69-7658-4D93-AA5A-E1F7DE1B88DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43B6B69-7658-4D93-AA5A-E1F7DE1B88DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43B6B69-7658-4D93-AA5A-E1F7DE1B88DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43B6B69-7658-4D93-AA5A-E1F7DE1B88DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5116D848-C050-463A-96CB-86C57B111072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5116D848-C050-463A-96CB-86C57B111072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5116D848-C050-463A-96CB-86C57B111072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5116D848-C050-463A-96CB-86C57B111072}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

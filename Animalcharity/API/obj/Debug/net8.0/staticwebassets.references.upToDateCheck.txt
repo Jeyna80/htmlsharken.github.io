@@ -1,0 +1,3 @@
+C:\Users\janeh\source\repos\Animalcharity\Animalcharity\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\janeh\source\repos\Animalcharity\Animalcharity\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\janeh\source\repos\Animalcharity\Animalcharity\obj\Debug\net8.0\staticwebassets.build.json
